@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test name="baseclass">
+    <classes>
+      <class name="baseclass.baseclass"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="loginpage">
+    <classes>
+     <class name="testcases.LoginPage"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="cleardata">
+    <classes>
+     <class name="testcases.ClearShoppingCart"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="selectitems">
+    <classes>
+     <class name="testcases.SelectBooks"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="gotocarts">
+    <classes>
+   <class name="testcases.GoToCart"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="checkout">
+    <classes>
+   <class name="testcases.BillingAddress"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="check">
+    <classes>
+   <class name="testcases.Checkout"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="shippingAddress1">
+    <classes>
+   <class name="testcases.ShippingAddress1"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="shippingmetod">
+    <classes>
+      <class name="testcases.ShippingMethod1"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+   <test name="paymetmetod">
+    <classes>
+      <class name="testcases.PaymentMethod1"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="paymentInfo">
+    <classes>
+      <class name="testcases.PaymentInfo1"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="confrmOrder">
+    <classes>
+      <class name="testcases.ConfrmOrder1"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="successfullyProcessed">
+    <classes>
+      <class name="testcases.SuccessfullyProcessed"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="logout">
+    <classes>
+      <class name="testcases.Logout"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
